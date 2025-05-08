@@ -1,0 +1,9 @@
+pluginManagement {
+    includeBuild('../node_modules/@react-native/gradle-plugin')
+}
+
+rootProject.name = 'CarPool'
+include ':app'
+
+// Apply settings.gradle from the react-native-gradle-plugin in node_modules
+apply from: file("../node_modules/@react-native/gradle-plugin/settings.gradle")
